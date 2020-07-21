@@ -6,17 +6,17 @@ while player==False:
     player=input("Rock,Paper,Scissors?")
     if player==computer:
         print("Tie!")
-    elif player=="Rock":
+    elif player=="Rock" or player=="rock":
         if computer=="paper":
             print("You lose!",computer,"covers",player)
         else:
             print("You win!",player,"smashes",computer)
-    elif player=="Paper":
+    elif player=="Paper" or player=="paper":
         if computer=="Scissors":
             print("You lose!",computer,"cut",player)
         else:
             print("You win!",player,"covers",computer)
-    elif player=="Scissors":
+    elif player=="Scissors" or player =="scissors":
         if computer=="Rock":
             print("You lose...",computer,"smashes",player)
         else:
